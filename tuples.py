@@ -1,3 +1,6 @@
+
+#create an empty tuple by t=tuple() or t=()
+
 # Immutable form of the list DS -> Tuple
 tup = (1, 2, 3, 4, 4, 5, 5, 6)
 

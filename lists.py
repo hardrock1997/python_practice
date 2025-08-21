@@ -1,5 +1,7 @@
 import copy
 
+#create an empty list by l=list() or l=[]
+
 # ---------- List basics ----------
 l = [1, 2, 3, "hello", 4.5]
 n = len(l)
