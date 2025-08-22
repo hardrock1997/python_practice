@@ -44,3 +44,12 @@ s.remove("apple") #if we try to remove an element that is not in the set then it
 s.discard(5) #this will not throw that error
 print(s)
 #s.clear() clearing out the entire set
+
+
+s2={3,1,2,3,4}
+
+union=s1.union(s2)
+intersection=s1.intersection(s2)
+symm_diff = s1.symmetric_difference(s2) #all elements of s1,s2 and no common elements of s1 and s2
+
+print(union, intersection, symm_diff)
