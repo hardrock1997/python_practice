@@ -1,5 +1,5 @@
 
-#create an empty set by s={} or s=set()
+#create an empty set by s=set(), s={} cannot because it then conflicts with declaring an empty dictionary
 
 s={"apple", "banana", "orange", "pineapple","apple"}
 

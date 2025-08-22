@@ -31,3 +31,13 @@ print(set_joined_string)
 tup = ("34", "45")
 tuple_joined_string = " $ ".join(tup)
 print(tuple_joined_string)
+
+
+'''
+MUTABLES:
+    set, list, dictionary
+    cannot be used as the hashed key for set or dictioanry
+IMMUTABLES:
+    integers, float, string, boolean, tuples
+    can be used as the hash key for set or dictionary
+'''
